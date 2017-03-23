@@ -1,0 +1,10 @@
+git commit -m "commit your files"
+git pull origin master
+git status // to see which file has the merge conflict
+git mergetool // then press enter
+Use your brain to fix the conflict
+Save the merge
+^C to exit
+git status // to check if merge conflict is resolved
+git commit -m "Resolved merge conflict"
+git push origin master

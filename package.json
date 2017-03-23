@@ -1,0 +1,33 @@
+{
+  "name": "aidera",
+  "version": "1.0.0",
+  "description": "bot assistant for the masses",
+  "main": "server.js",
+  "scripts": {
+    "test": "./tests/send-text-message-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aranga1/cs408.git"
+  },
+  "author": "CS408 Team 2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aranga1/cs408/issues"
+  },
+  "homepage": "https://github.com/aranga1/cs408#readme",
+  "dependencies": {
+    "airapi": "^0.1.0",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "mocha": "^3.2.0",
+    "mongoose": "^4.8.1",
+    "recastai": "^2.3.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "messenger-bot-tester": "^1.2.1"
+  }
+}
