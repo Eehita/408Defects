@@ -29,7 +29,7 @@ var User = require('./db/user');
 //Database configuration
 var mongoose = require('mongoose');
 var configDB = require('./config/database.js');
-mongoose.connect(configDB.url); // connect to our database
+mongoose.connect(configDB.urlHeroku); // connect to our database
 
 
 /*APP SETTINGS DO NOT TOUCH THESE. THEY REMAIN THE SAME ALWAYS*/
